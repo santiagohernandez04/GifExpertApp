@@ -1,6 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(24, 70, 131);
   }
   
   body {
@@ -10,7 +10,7 @@
   input {
     background-color: white;
     border-radius: 5px;
-    border: 1px solid rgb(97, 32, 158);
+    border: 4px solid rgb(3, 27, 49);
     color: black;
     font-size: 1.2rem;
     outline: none;
@@ -18,13 +18,17 @@
     width: 100%;
   }
   
-  h2 {
-    font-size: 1.5rem;
-  }
-  
-  h3 {
+  h1 {
+    color: white;
     font-size: 3rem;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
   }
   
   .card-grid {
@@ -47,8 +51,11 @@
     margin-bottom: 20px;
     margin-right: 20px;
     overflow: hidden;
+    padding-top: 30px;
   }
-  
+  .card:hover {
+    transform: translateY(-10px);
+  }
   .card p {
     background-color: white;
     flex: 1;
@@ -59,5 +66,5 @@
   }
   
   .card img {
-    width: 100%;
+    width: 300px;
   }
